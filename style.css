@@ -1,0 +1,54 @@
+body{
+    background-size: cover;
+}
+
+h1{
+    font-size: 35px !important;
+    background-color: black !important;
+    letter-spacing: 10px;
+    border: none !important;
+    box-shadow: 4px 4px 30px violet;
+}
+
+
+button:hover{
+    background-color:rgb(0, 214, 242);
+    width: 230px;
+    letter-spacing: 20px !important;
+    color: white;
+    
+}
+
+canvas {
+    border:2px solid red;
+    margin-top: 90px;
+    animation-name: animi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 100px;
+}
+@keyframes animi{
+    0%{box-shadow:5px 5px 30px green;
+        border:2px solid green;}
+    20%{box-shadow:5px 5px 30px red;
+        border:2px solid red;}
+    40%{box-shadow:5px 5px 30px cyan;
+        border:2px solid cyan;
+    }
+    60%{box-shadow:5px 5px 30px rgb(255, 153, 0);
+        border:2px solid rgb(255, 149, 0);
+    }
+    80%{box-shadow:5px 5px 30px indigo;
+        border:2px solid indigo;
+    }
+    100%{box-shadow:5px 5px 30px royalblue;
+        border:2px solid royalblue;}
+}
+
+button{
+    background-color:rgb(10, 2, 1);
+    width: 200px;
+    letter-spacing: 10px !important;
+    color: blueviolet;
+    box-shadow: 4px 4px 30px violet;
+}
